@@ -20,22 +20,9 @@ app.use(methodOverride(function (req, res) {
     }
 }));
 
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>console.log() - JavaScript Example</title>
-</head>
-<body>
-        <p>
-                Some text.
-        </p>
-        <script>
-                console.log("Hello There!");
-        </script>
-</body>
-</html>
+let name = "Github Docker Jenkins Integration";
+
+console.log(name);
     /* Redirects to the to do list if the page requested is not found */
     .use(function (req, res, next) {
         res.redirect('/todo');
