@@ -20,8 +20,6 @@ app.use(methodOverride(function (req, res) {
     }
 }));
 
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
         <meta charset="UTF-8">
