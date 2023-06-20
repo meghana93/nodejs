@@ -8,7 +8,7 @@ const express = require('express'),
     port = 8000
 
 
-let name = "Github Docker Jenkins Integration";
+let name = "Github Docker Jenkins Integration Project";
 
 console.log(name);
    
